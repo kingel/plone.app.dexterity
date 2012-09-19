@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-09-16 23:18+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-09-19 10:02+0100\n"
+"Last-Translator: Franklin Kingma <franklin@fourdigits.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,14 +21,18 @@ msgstr ""
 
 #: ../browser/add_type.py:12
 msgid "Add Content Type"
-msgstr ""
+msgstr "Voeg Content Type toe"
 
 #: ../browser/types_listing.pt:75
 msgid "Add New Content Type…"
-msgstr ""
+msgstr "Voeg nieuw Content Type toe..."
 
-msgid "Adds Dublin Core metadata fields (equals Basic metadata + Categorization + Effective range + Ownership)"
+msgid ""
+"Adds Dublin Core metadata fields (equals Basic metadata + Categorization + "
+"Effective range + Ownership)"
 msgstr ""
+"Voeg Dublic Core metadata velden toe (is het zelfde als: Basic metadata + "
+"Categorization + Effective range + Ownership)"
 
 msgid "Adds a title and description"
 msgstr ""
@@ -48,17 +52,19 @@ msgstr ""
 msgid "Assign an effective and/or expiration date"
 msgstr ""
 
-msgid "Automatically generate short URL name for content based on its initial title"
+msgid ""
+"Automatically generate short URL name for content based on its initial title"
 msgstr ""
 
-msgid "Automatically generate short URL name for content based on its primary field file name"
+msgid ""
+"Automatically generate short URL name for content based on its primary field "
+"file name"
 msgstr ""
 
 msgid "Basic metadata"
 msgstr ""
 
-#: ../browser/behaviors.py:51
-#: ../browser/layout.py:16
+#: ../browser/behaviors.py:51 ../browser/layout.py:16
 msgid "Behaviors"
 msgstr ""
 
@@ -83,10 +89,9 @@ msgstr ""
 
 #: ../interfaces.py:52
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
-#: ../browser/types.py:186
-#: ../profiles/default/actions.xml
+#: ../browser/types.py:186 ../profiles/default/actions.xml
 #: ../profiles/default/controlpanel.xml
 msgid "Dexterity Content Types"
 msgstr ""
@@ -103,9 +108,10 @@ msgstr ""
 
 msgid "Enable next previous navigation for all items of this type"
 msgstr ""
+" Schakel navigatie tussen volgende en vorige in voor alle items van dit type"
 
 msgid "Exclude From navigation"
-msgstr ""
+msgstr "Sluit uit van navigatie"
 
 #: ../browser/types.py:68
 msgid "Export Schema Models"
@@ -115,90 +121,87 @@ msgstr ""
 msgid "Export Type Profiles"
 msgstr ""
 
-#: ../browser/fields.py:9
-#: ../browser/layout.py:15
+#: ../browser/fields.py:9 ../browser/layout.py:15
 msgid "Fields"
-msgstr ""
+msgstr "Velden"
 
 #: ../interfaces.py:58
 msgid "Items of this type will be able to contain other items."
-msgstr ""
+msgstr "Items van dit type kunnen andere items bevatten"
 
 msgid "Make all items of this type a navigation root"
 msgstr ""
 
 msgid "Name from file name"
-msgstr ""
+msgstr "Naam van bestandsnaam"
 
 msgid "Name from title"
-msgstr ""
+msgstr "Naam van titel"
 
 msgid "Navigation root"
 msgstr ""
 
 msgid "Next previous navigation"
-msgstr ""
+msgstr "Volgende vorige navigatie"
 
 msgid "Next previous navigation toggle"
 msgstr ""
 
 #: ../browser/behaviors.py:54
 msgid "No changes were made."
-msgstr ""
+msgstr "Er zijn geen wijzigingen gemaakt."
 
-#: ../browser/layout.py:14
-#: ../browser/overview.py:19
+#: ../browser/layout.py:14 ../browser/overview.py:19
 msgid "Overview"
-msgstr ""
+msgstr "Overzicht"
 
 #: ../browser/types.py:48
 msgid "Please select a single type to clone."
-msgstr ""
+msgstr "Selecteer een "
 
 #: ../browser/types.py:54
 msgid "Please select a type to clone."
-msgstr ""
+msgstr "Selecteer een type om te klonen"
 
 #: ../browser/types.py:61
 msgid "Please select types to export."
-msgstr ""
+msgstr "Selecteer de types om te exporteren"
 
 #: ../interfaces.py:25
 msgid "Please use only letters, numbers, and the following characters: .-_"
-msgstr ""
+msgstr "Gebruik alleen letters, nummers en de volgende karakters: .-_"
 
 #: ../browser/behaviors.py:52
 msgid "Select the behaviors to enable for this content type."
-msgstr ""
+msgstr "Selecteer "
 
-#: ../behaviors/exclfromnav.py:13
-#: ../behaviors/nextprevious.py:27
+#: ../behaviors/exclfromnav.py:13 ../behaviors/nextprevious.py:27
 msgid "Settings"
-msgstr ""
+msgstr "Instellingen"
 
 #: ../interfaces.py:45
 msgid "Short Name"
-msgstr ""
+msgstr "Korte naam"
 
 #: ../browser/types.py:121
 msgid "The following custom content types are available for your site."
-msgstr ""
+msgstr "De volgende content types zijn beschikbaar in je site."
 
 #: ../interfaces.py:78
 msgid "There is already a content type named '${name}'"
-msgstr ""
+msgstr "Er is al een content type met de naam '${name}'"
 
 #: ../interfaces.py:41
 msgid "Type Name"
-msgstr ""
+msgstr "Type naam"
 
 #: ../browser/add_type.py:48
 msgid "Type added successfully."
-msgstr ""
+msgstr "Het type is succesvol toegevoegd"
 
 #: ../browser/clone_type.py:28
 msgid "Type cloned successfully."
-msgstr ""
+msgstr "Het type is succesvol gekloond"
 
 #: ../interfaces.py:46
 msgid "Used for programmatic access to the type."
@@ -213,19 +216,21 @@ msgstr ""
 #: ../behaviors/exclfromnav.py:18
 msgid "help_exclude_from_nav"
 msgstr ""
+"Indien u deze optie aanvinkt, wordt het item niet getoond in de navigatie"
 
 #. Default: "This enables next/previous widget on content items contained in this folder."
 #: ../behaviors/nextprevious.py:32
 msgid "help_nextprevious"
 msgstr ""
+"Indien u deze optie aanvinkt, wordt navigatie tussen items in deze map "
+"getoond."
 
 #. Default: "Exclude from navigation"
 #: ../behaviors/exclfromnav.py:17
 msgid "label_exclude_from_nav"
-msgstr ""
+msgstr "Sluit uit van navigatie"
 
 #. Default: "Enable next previous navigation"
 #: ../behaviors/nextprevious.py:31
 msgid "label_nextprevious"
-msgstr ""
-
+msgstr "Schakel navigatie tussen volgende en vorige in."
